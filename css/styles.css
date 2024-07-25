@@ -1,5 +1,6 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
 }
 .text-logo {
   font-family: "Raleway", sans-serif;
@@ -24,7 +25,7 @@ body {
 .text-logo .second-prt-logo-footer {
   color: #f4f4fd;
 }
-.navigation a {
+.navigation {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -39,7 +40,7 @@ body {
 .navigation:focus {
   color: #404bbf;
 }
-.contacts a {
+.contacts {
   font-family: inherit;
   font-weight: 400;
   font-size: 16px;
@@ -48,6 +49,12 @@ body {
   color: #434455;
   text-decoration: none;
   font-style: normal;
+}
+.contacts:hover {
+  color: #404bbf;
+}
+.contacts:focus {
+  color: #404bbf;
 }
 body {
   background-color: #fff;
@@ -73,25 +80,17 @@ body {
   letter-spacing: 0.04em;
   color: #fff;
   font-size: 16px;
-  border: none;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 10px;
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   cursor: pointer;
 }
 .button:hover {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
+}
+.our-team {
+  background-color: #f4f4fd;
 }
 .features-name {
   font-family: inherit;
