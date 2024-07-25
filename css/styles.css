@@ -1,15 +1,21 @@
 body {
-  font-family: "Roboto", "Raleway" sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
 }
 .text-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+}
+.text-logo:hover {
+  color: #404bbf;
+}
+.text-logo:focus {
+  color: #404bbf;
 }
 .text-logo .second-prt-logo-header {
   color: #2e2f42;
@@ -18,7 +24,7 @@ body {
 .text-logo .second-prt-logo-footer {
   color: #f4f4fd;
 }
-#navigation a {
+.navigation a {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -27,7 +33,13 @@ body {
   color: #2e2f42;
   text-decoration: none;
 }
-#contacts a {
+.navigation:hover {
+  color: #404bbf;
+}
+.navigation:focus {
+  color: #404bbf;
+}
+.contacts a {
   font-family: inherit;
   font-weight: 400;
   font-size: 16px;
@@ -35,6 +47,7 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
+  font-style: normal;
 }
 body {
   background-color: #fff;
@@ -44,16 +57,20 @@ body {
   width: 1440px;
   height: 600px;
 }
-h1 {
+.start-name {
   font-family: inherit;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
-#button {
+.button {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #fff;
   font-size: 16px;
   border: none;
@@ -70,16 +87,23 @@ h1 {
   background: #4d5ae5;
   cursor: pointer;
 }
-.features h2 {
+.button:hover {
+  color: #404bbf;
+}
+.button:focus {
+  color: #404bbf;
+}
+.features-name {
   font-family: inherit;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
-.features li h3 {
+.headlines {
   font-family: inherit;
   font-weight: 500;
   font-size: 20px;
@@ -87,7 +111,7 @@ h1 {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.features li p {
+.descriptions {
   font-family: inherit;
   font-weight: 400;
   font-size: 16px;
@@ -95,33 +119,11 @@ h1 {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.our-team h2 {
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11111;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
+
+.employee {
+  background-color: #ffffff;
 }
-.our-team h3 {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-}
-.our-team p {
-  font-family: inherit;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #434455;
-}
+
 .our-portfolio h3 {
   font-family: inherit;
   font-weight: 500;
@@ -138,7 +140,7 @@ h1 {
   letter-spacing: 0.02em;
   color: #434455;
 }
-footer {
+.footer {
   background-color: #2e2f42;
   width: 1440px;
   height: 312px;
